@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "purdue_aonn"
+version = "0.1.0"
+description = "All-optical neural network and SLM phase pattern generator"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Anderson Xu", email = "xu1464@purdue.edu" },
+  { name = "Ziqi Niu", email = "niu96@purdue.edu" },
+  { name = "Ruben Canora", email = "rcanoraa@purdue.edu" }
+]
+license = "MIT"
+dependencies = [
+  "numpy",
+  "scipy",
+  "torch"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ml_training*", "slm_gsw*"]

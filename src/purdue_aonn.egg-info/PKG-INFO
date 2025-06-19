@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: purdue_aonn
+Version: 0.1.0
+Summary: All-optical neural network and SLM phase pattern generator
+Author-email: Anderson Xu <xu1464@purdue.edu>, Ziqi Niu <niu96@purdue.edu>, Ruben Canora <rcanoraa@purdue.edu>
+License-Expression: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: torch
+
+# Purdue-AONN
